@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="survay.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+
+    <main>
+      <form action="form.js" id="survey-form">
+        <fieldset id="field1" class="field">
+          <div class="entry-area">
+            <input type="text" required class="input" />
+            <div class="label">Enter your name</div>
+          </div>
+          <div class="entry-area">
+            <input type="text" class="input" required />
+            <div class="label">Enter your Username</div>
+          </div>
+          <div class="entry-area">
+            <input type="password" required class="input" />
+            <div class="label">Enter your Password</div>
+          </div>
+        </fieldset>
+
+        <fieldset id="field2" class="field">
+          <p id="field2-txt">How much do you like Programming and helping others</p>
+          <div id="all-review-boxes">
+            <div class="review-box">
+              <input
+                type="radio"
+                id="5str"
+                class="radio-buttons"
+                name="survey-mindfulness"
+                checked
+                value="5str"
+              />
+              <label for="5str" class="review-label-animation"></label>
+              <label for="5str" class="review-label-text">I like it very much</label>
+            </div>
+
+            <div class="review-box">
+              <input
+                type="radio"
+                id="4str"
+                class="radio-buttons"
+                name="survey-mindfulness"
+                value="4str"
+              />
+              <label for="4str" class="review-label-animation"></label>
+              <label for="4str" class="review-label-text">I like it
+            </div>
+
+            <div class="review-box">
+              <input
+                type="radio"
+                id="3str"
+                class="radio-buttons"
+                name="survey-mindfulness"
+                value="3str"
+              />
+              <label for="3str" class="review-label-animation"></label>
+              <label for="3str" class="review-label-text">Neither like nor dislike</label>
+            </div>
+
+            <div class="review-box">
+              <input
+                type="radio"
+                id="2str"
+                class="radio-buttons"
+                name="survey-mindfulness"
+                value="2str"
+              />
+              <label for="2str" class="review-label-animation"></label>
+              <label for="2str" class="review-label-text">I dislike it
+            </div>
+
+            <div class="review-box">
+              <input
+                type="radio"
+                id="1str"
+                class="radio-buttons"
+                name="survey-mindfulness"
+                value="1str"
+              />
+              <label for="1str" class="review-label-animation"></label>
+              <label for="1str" class="review-label-text">I don't like it at all</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset id="field3" class="field">
+          <p id="field3-txt">What are your hobbies?</p>
+          <div id="hobby-box">
+            <section id="hobby1" class="hobby-sections">
+              <input type="checkbox" name="Gardening" id="hobby-1" value="gardening">
+              <label for="hobby-1" id="hobby-1-label" class="hobby-label"></label>
+              <label for="hobby-1" class="hobby-label-text">Gardening</label>
+            </section>
+
+
+            <section id="hobby2" class="hobby-sections">
+              <input type="checkbox" name="Reading" id="hobby-2" value="reading">
+              <label for="hobby-2" id="hobby-2-label" class="hobby-label"></label>
+              <label for="hobby-2" class="hobby-label-text">Reading</label>
+            </section>
+
+
+            <section id="hobby3" class="hobby-sections" >
+              <input type="checkbox" name="Cooking" id="hobby-3" value="cooking">
+              <label for="hobby-3" id="hobby-3-label" class="hobby-label"></label>
+              <label for="hobby-3" class="hobby-label-text">Cooking</label>
+            </section>
+
+            <section id="hobby4" class="hobby-sections" >
+              <input type="checkbox" name="Singing" id="hobby-4" value="singing">
+              <label for="hobby-4" id="hobby-4-label" class="hobby-label"></label>
+              <label for="hobby-4" class="hobby-label-text">Singing</label>
+            </section>
+
+
+            <section id="hobby5" class="hobby-sections" >
+              <input type="checkbox" name="Dancing" id="hobby-5" value="dancing">
+              <label for="hobby-5" id="hobby-5-label" class="hobby-label"></label>
+              <label for="hobby-5" class="hobby-label-text">Dancing</label>
+            </section>
+
+
+            <section id="hobby6" class="hobby-sections" >
+              <input type="checkbox" name="Painting" id="hobby-6"value="painting">
+              <label for="hobby-6" id="hobby-6-label" class="hobby-label"></label>
+              <label for="hobby-6" class="hobby-label-text">Painting</label>
+            </section>
+
+
+            <section id="hobby7" class="hobby-sections" >
+              <input type="checkbox" name="Swimming" id="hobby-7" value="swimming">
+              <label for="hobby-7" id="hobby-7-label" class="hobby-label"></label>
+              <label for="hobby-7" class="hobby-label-text">Swimming</label>
+            </section>
+
+
+            <section id="hobby8" class="hobby-sections" >
+              <input type="checkbox" name="Traveling" id="hobby-8" value="traveling">
+              <label for="hobby-8" id="hobby-8-label" class="hobby-label"></label>
+              <label for="hobby-8" class="hobby-label-text">Traveling</label>
+            </section>
+
+
+            <section id="hobby9" class="hobby-sections" >
+              <input type="checkbox" name="Photography" id="hobby-9"value="photography">
+              <label for="hobby-9" id="hobby-9-label" class="hobby-label"></label>
+              <label for="hobby-9" class="hobby-label-text">Photography</label>
+            </section>
+
+
+            <section id="hobby10" class="hobby-sections" >
+              <input type="checkbox" name="Gaming" id="hobby-10" value="gaming">
+              <label for="hobby-10" id="hobby-10-label" class="hobby-label"></label>
+              <label for="hobby-10" class="hobby-label-text">Gaming</label>
+            </section>
+
+
+            <section id="hobby11" class="hobby-sections" >
+              <input type="checkbox" name="Coding" id="hobby-11" value="coding">
+              <label for="hobby-11" id="hobby-11-label" class="hobby-label"></label>
+              <label for="hobby-11" class="hobby-label-text">Coding</label>
+            </section>
+          </div>
+        </fieldset>
+
+        <fieldset id="field4" class="field">
+          <p id="field4-txt">Give us feedback about your experience</p>
+          <textarea name="feedback" id="feedback-box" cols="35" rows="7" placeholder="Enter us your valuable feedback..."></textarea>
+        </fieldset>
+
+        
+        <div id="submit-div">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        
+        
+      </form>
+    </main>
+
+    <footer></footer>
+
+    <script src="form.js"></script>
+  </body>
+</html>
